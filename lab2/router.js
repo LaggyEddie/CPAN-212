@@ -6,11 +6,11 @@ router.get("/", (req,res) => {
 })
 
 router.get("/name", (req,res) => {
-    res.send("SOmeone (maybe)")
+    res.send("Ovuvuevuevue Enyetuenwuevue Ugbemugbem Osas")
 })
 
 router.get("/greeting", (req,res) => {
-    res.send("The lab 2 router file")
+    res.send("My name is uh Ovuvuevuevue Enyetuenwuevue Ugbemugbem Osas")
 })
 
 router.get("/add/:a/:b", (req,res) => {
