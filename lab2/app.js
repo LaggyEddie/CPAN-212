@@ -3,7 +3,7 @@ const app = express();
 const PORT = 8964;
 const lab_router = require("./router")
 
-app.use(express.urlencoded.apply({extended: true}));
+app.use(express.urlencoded({extended: true}));
 
 app.use("/lab2", lab_router)
 
